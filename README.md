@@ -1,4 +1,4 @@
-# sales-forecasting: Sales Forecasting: A Novel Ensemble Model by Combining LSTM, Facebook Prophet and Informer Model
+# Sales Forecasting: A Novel Ensemble Model by Combining LSTM, Facebook Prophet and Informer Model
 
 # Introduction
 This project is aim to make a novel model by combining LSTM, Facebook Prophet and Informer. And provide some help about Informer in field of sales forecasting.
@@ -9,7 +9,7 @@ In this project, the experiments and the acquisition of the results were perform
 pip install pandas numpy matplotlib statsmodels scikit-learn torch tqdm prophet
 
 # Files
-5 ipynb files:
+## 5 ipynb files:
 
   data.ipynb is about preprocessing the original data.
   
@@ -21,7 +21,7 @@ pip install pandas numpy matplotlib statsmodels scikit-learn torch tqdm prophet
   
   ensemble.ipynb is about the ensemble model.
 
-7 CSV files:
+## 7 CSV files:
   Iowa_Liquor_Sales.csv
   
   Iowa_Liquor_Sales_20230725.csv
@@ -42,7 +42,7 @@ These three CSV files store the prediction results of Facebook Pprophet, LSTM an
   
 This CSV file store the final prediction after ensemble Facebook Pprophet, LSTM and Informer.
 
-2 folder:
+## 2 folder:
 
   'Informer2020' is the open-source Informer model which is developed by Zhou et al(2021) and available from 'https://github.com/zhouhaoyi/Informer2020'
   
